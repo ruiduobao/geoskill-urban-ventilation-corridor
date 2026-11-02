@@ -1,9 +1,9 @@
 {
   "skill": "urban-ventilation-corridor",
   "skill_version": "1.0.0",
-  "command": "urban-ventilation-corridor --bbox 116 39 117 40 --synthetic --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\urban-ventilation-corridor\\_test_cli_synth --quiet",
-  "started_at": "2026-08-03T17:47:21.624501Z",
-  "finished_at": "2026-08-03T17:47:21.799293Z",
+  "command": "urban-ventilation-corridor --bbox 116 39 117 40 --synthetic --output-dir /tmp/batch2/geoskill-urban-ventilation-corridor/_test_cli_synth --quiet",
+  "started_at": "2026-11-02T15:56:24.802860Z",
+  "finished_at": "2026-11-02T15:56:25.046033Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\urban-ventilation-corridor\\_test_cli_synth\\ventilation.tif",
+      "path": "/tmp/batch2/geoskill-urban-ventilation-corridor/_test_cli_synth/ventilation.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\urban-ventilation-corridor\\_test_cli_synth\\corridor.geojson",
+      "path": "/tmp/batch2/geoskill-urban-ventilation-corridor/_test_cli_synth/corridor.geojson",
       "kind": "vector",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -49,7 +49,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\urban-ventilation-corridor\\_test_cli_synth\\ventilation_stats.json",
+      "path": "/tmp/batch2/geoskill-urban-ventilation-corridor/_test_cli_synth/ventilation_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -69,7 +69,7 @@
     "corridor_vertices": 128
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "urban-ventilation-corridor"
   },
   "error": null
